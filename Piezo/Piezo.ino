@@ -1,14 +1,14 @@
 #include <WiFi.h>
 
-const char* ssid     = "S24feK";
-const char* password = "xqcz1045";
+const char* ssid     = "JAPAN-DELL-PC 3175";
+const char* password = "9q[18L14";
 
 #define PIEZO_PIN 1  // ขา Analog อ่านค่าการเคาะ (GPIO 1)
 
 WiFiServer server(80);
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(9600);
   delay(1000);
 
   pinMode(PIEZO_PIN, INPUT);
